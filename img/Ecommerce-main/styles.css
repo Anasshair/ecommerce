@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.space{
+    padding: 40px 80px;
+}
+
+.tag{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.shop-container{
+    background:
+     url('./img/banner/b1.jpg');
+    background-size: cover;
+    height: 40vh;
+  margin-top: 80px;
+  color: #e3e6f3;
+  text-align: center;
+  font-weight: bold;
+ }  
+
+ .main-image{
+    
+    padding-left: 50px;
+    padding-top: 90px;
+    padding-right: 90px;
+    
+ }
+.small-image-tag{
+    height: 50%;
+    width: 50%;
+}
+
+
+ .Fashion-Page{
+background: url('./img/products/f1.jpg');
+background-size: cover;
+height: 100vh;
+margin-top: 80px;
+ }
+
+ .tag{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    }

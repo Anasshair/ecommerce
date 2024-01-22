@@ -1,0 +1,236 @@
+.container-padding{
+    padding: 0px 80px;
+}
+
+
+
+.main-header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;position: fixed;
+    width:100%;
+     background-color:#e3e6f3; 
+     display: flex;
+      justify-content: space-between;
+    align-items: center;
+     padding-top: 20px ;
+     padding-bottom: 20px ;
+     position: fixed;
+     top: 0;
+}
+
+
+
+.container-image{
+    background-image: url('./img/hero4.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover ;
+    background-position: 0% -20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-image > h3{
+    font-size: 24px; font-weight: 600; text-transform: capitalize;
+}
+.container-image > h1{
+    font-size: 50px;
+}
+.container-image > p{
+    color: rgb(39, 56, 56);
+    padding-top:25px ;
+}
+.container-image > div{
+    width:220px;
+    height: 45px;
+
+ margin-top: 14px;
+ overflow: hidden;
+ position: relative;
+}
+.container-image > div > img{
+ width:100%;
+ height: 100%;
+
+}
+.container-image > div > p{
+   position: absolute;
+   top:25%;
+   left: 30%;
+   
+   }
+
+@media screen and (max-width:800px) {
+    .container-image{
+        background-position: 70%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container-image{
+        background-position: 80%;
+    }
+}
+.section{
+    padding: 40px 80px;
+}
+.featcher-container{
+display: flex;
+justify-content: space-between;
+}
+
+.featcher-container > div{
+    width:180px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    text-align: center;
+}
+.featcher-container > div:nth-child(1) >p{
+     background-color: rgb(190, 185, 185);
+     padding: 7px 0 ;
+}
+.featcher-container > div:nth-child(2) >p{
+    background-color: rgb(43, 36, 68);
+    padding: 7px 0 ;
+}
+.featcher-container > div:nth-child(3) >p{
+    background-color: rgb(196, 183, 9);
+    padding: 7px 0 ;
+}
+.featcher-container > div:nth-child(4) >p{
+    background-color: rgb(17, 104, 145);
+    padding: 7px 0 ;
+}
+.featcher-container > div:nth-child(5) >p{
+    background-color: rgb(14, 196, 54);
+    padding: 7px 0 ;
+}
+.featcher-container > div:nth-child(6) >p{
+    background-color: rgb(156, 21, 100);
+    padding: 7px 0 ;
+}
+.product-content{
+    text-align: center;
+     padding: 60px; 
+     height: 30%;
+      margin: 20px;
+       line-height: 54px;
+        color: #222; 
+        font-size: 32px;
+}
+
+.product-content> p{
+    font-size: 16px;
+     color: #465b52; 
+    margin: 15px 0 20px 0;
+}
+.product-container{
+    display: flex; gap: 30px; flex-wrap: wrap; justify-content: center  ;
+}
+
+.product-container > div{
+    width: 280px; border-radius: 20px; height: auto; padding: 12px; overflow: hidden; background-color: white; box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.product-container > div > p{
+    margin: 8px 0;
+
+}
+.product-container > div > img{
+    width: 100%;
+}
+
+.service-container  > p {
+    font-size: 30px;
+    font-size: 30px; 
+    line-height: 54px; 
+    text-align: center;
+}
+.service-container > p > span {
+    color:red
+}
+.service-container  > button{
+    font-size: 14px; font-weight: 600; padding: 15px 30px; border-radius: 4px;
+}
+
+.arrival-container > h1 {
+    text-align: center; 
+    padding: 60px; height: 30%;
+    margin: 20px; line-height: 54px; 
+    color: #222; font-size: 32px;
+}
+.arrival-container > p {
+    font-size: 16px; color: #465b52;
+    margin: 15px 0 20px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-content{
+    display: flex; 
+    gap: 30px; flex-wrap: wrap; 
+    justify-content: center;
+}
+.card-content > p {
+ width: 280px; border-radius: 20px; 
+ height: auto; padding: 12px; 
+ overflow: hidden; background-color: white; 
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card-content > div > img {
+    width: 100%;
+}
+
+.card-content > div:nth-child(1) > p {
+    margin: 8px 0;
+}
+
+.card-content > div:nth-child(2) > p {
+    margin: 8px 0;
+}
+.card-content > div:nth-child(3) > p {
+    margin: 8px 0;
+}
+
+.crazy-container > :hover{
+    display: flex; 
+    justify-content: space-around; 
+    background-size: cover;  
+    background-position: center center; 
+    flex-wrap: wrap; gap:20px;
+}
+.crazy-container > div:nth-child(1) {
+    height: 300px;  
+    overflow: hidden; 
+    position: relative; 
+    z-index: -1; 
+    width: clamp(300px , 100%, 550px);
+}
+.card-container > div:nth-child(2){
+    width: clamp(300px , 100%, 550px);
+}
+.card-container > div > img{
+    width: 100%; height: 300px;
+}
+.card-container > div > div {
+    position: absolute; 
+    font-family: 'Spartan', sans-serif; 
+    top:25%; color: aliceblue; 
+    font-size: 28px; 
+    padding: 20px;
+}
+
+.card-container > div:nth-child(1) > p{
+    color: white; font-size: 20px; font-weight: 300;
+}
+.card-container > div:nth-child(2) > p{
+    color: white; font-size: 28px; font-weight: 800;
+}
+.card-container > div:nth-child(3) > p{
+    color: white; font-size: 14px; font-weight: 500; padding-bottom: 15px;
+}
+.card-container > div > button{
+    font-size: 13px; font-weight: 600; 
+    padding: 11px 18px; color: white; 
+    background-color: transparent; 
+
+}
